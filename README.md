@@ -4,7 +4,11 @@ This project is a solver for the game Wordscapes. It generates all possible word
 
 ## Project Structure
 ```
-data/ words_alpha.txt words_dictionary.json README.md solve.py
+data/ 
+words_alpha.txt 
+words_dictionary.json 
+README.md 
+solve.py
 ```
 
 
@@ -25,9 +29,9 @@ data/ words_alpha.txt words_dictionary.json README.md solve.py
 python solve.py
 ```
 
-Input Characters: When prompted, enter the characters from your Wordscapes puzzle.
+- Input Characters: When prompted, enter the characters from your Wordscapes puzzle.
 
-View Results: The script will output all valid words that can be formed from the given characters.
+- View Results: The script will output all valid words that can be formed from the given characters.
 
 ## Example
 ```
@@ -37,6 +41,7 @@ Enter a word: example
 ```
 
 ## Functions
+
 load_json_from_file(file_path)
 Loads a JSON file from the specified path.
 
